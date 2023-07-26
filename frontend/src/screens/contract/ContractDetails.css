@@ -1,0 +1,50 @@
+.contract-bond {
+  background-color: #efefef;
+}
+
+.contract-bond-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.75rem;
+}
+.contract-bond-header h1 {
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.contract-bond img {
+  height: 2rem;
+  width: 2rem;
+  transform: translateY(-25%);
+}
+
+.contract-bond-content * {
+  text-align: center;
+}
+
+.contract-bond-content h2 {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.contract-bond-content h6 {
+  font-weight: 500;
+  font-size: 0.75rem;
+  color: teal;
+  margin-bottom: 2rem;
+}
+.contract-bond-content p {
+  color: rgba(17, 17, 17, 0.877);
+}
+.contract-bond-content > p:last-child {
+  padding-bottom: 1.2rem;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+.bold {
+  font-weight: 900;
+  font-size: 1.1rem;
+}
